@@ -220,11 +220,11 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5vh 0;
+    margin: 10vh 0;
 }
 
 #story h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     width: 90%;
     color: rgb(255, 255, 255);
 }
@@ -418,6 +418,7 @@ hr {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 10vh;
 }
 .row h1{
     color: white;
@@ -425,7 +426,8 @@ hr {
 }
 .row h4{
     font-size: 1.5rem;
-    color: white;
+    color: rgb(216, 216, 216);
+    font-weight: 300;
 }
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
     font-size: 0.75rem;
@@ -499,6 +501,7 @@ textarea {
 
 .submit-btn {
     float: right;
+    border: 0;
     padding: 7px 35px;
     border-radius: 60px;
     display: inline-block;
