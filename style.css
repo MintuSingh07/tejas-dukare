@@ -84,6 +84,21 @@ hr {
 }
 
 /* HERO SECTION */
+#insta-h{
+    color: white;
+    font-size: 3.5rem;
+    position: absolute;
+    right: 50%;
+}
+#linkedin-h{
+    color: white;
+    font-size: 3.5rem;
+    position: absolute;
+    right: 42%;
+}
+#head-secial{
+    margin-top: 1vh;
+}
 #hero-section {
     height: 100vh;
     width: 100%;
@@ -408,6 +423,46 @@ hr {
 }
 #c-video1{
     height: 60vh;
+}
+
+/* CTA */
+/*  */
+#cta{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cta-frame{
+    background-color: rgba(230, 230, 230, 0.938);
+    height: 40vh;
+    width: 90vw;
+    border-radius: 1rem;
+    position: relative;
+}
+#cta-frame h1{
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 2.7rem;
+}
+#cta-frame p{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+#cta-frame button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FF0000;
+    padding: 2rem 5rem;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-weight: 500;
 }
 
 /* CONTACT */
